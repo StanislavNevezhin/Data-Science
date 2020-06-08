@@ -1,7 +1,7 @@
 # skillfactory_rds
 
 module_1  
-## Итоговое задание по Проекту 1. Кто хочет стать миллионером? .
+## Итоговое задание по Проекту 1. Кто хочет стать миллионером? 
 
 (Юнит 1. Введение в Data Science. Обработка данных )  
 ![https://img.shields.io/badge/Python-3.7.4-blue](https://img.shields.io/badge/Python-3.7.4-blue)
