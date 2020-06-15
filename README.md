@@ -34,7 +34,7 @@
 
 ### Краткая информация о проектах
 **Модуль 1:** В этом модуле необходимо было провести предварительный анализ данных на основе датасета сайта IMBD. Ответить на 100 вопросов с 4 вариантами ответа.  
-***Результат по модулю 1*** - :arrow_left:[к Модулю 1](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_1)  
+***Результат по модулю 1*** - 90 баллов:arrow_left:[к Модулю 1](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_1)  
 **Модуль 2:** Провести разведывательный анализ (EDA) датасета для дальнейшего построения модели, которая бы предсказывала результаты госэкзамена по математике для учеников школы.  
 ***Результат по модулю 2*** - :arrow_left:[к Модулю 2](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_2)  
 
