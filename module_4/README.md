@@ -62,24 +62,27 @@
 Анализ по переменным.
 
 В ходе анализ строились гистограммы и графики плотности распределения переменных для двух типов заемщиков (дефолтных и недефолтных).
+
 Для выявлкения выбросов в переменных использовались инструменты пакета scikit_posthocs (Simple test based on interquartile range (IQR), Grubbs test, Tietjen-Moore test, Generalized Extreme Studentized Deviate test (ESD test)).
+
 Найдено болшое количество выбросов по переменным decline_app_cnt, score_bki, bki_request_cnt, income, для борьбы с ними были использованы специальные инструменты (винсоризация, тримминг, и т.д. см. https://docs.scipy.org/doc/scipy-0.14.0/reference/stats.mstats.html), а также преобразования, стабилизирующие дисперсию (степенные преобразования, например, логарифмирование, трансформация Бокса-Кокса и т.д.).
+
 Для заполнения пропусков в данных использовались инструменты пакета sklearn.impute (SimpleImputer, KNNImputer).
 
 Построение моделей.
 
 На этом этапе обучались сразу несколько моделей, из которых по метрике ROC-AUC выбирались лучшие для поиска оптимальных параметров моделей. Оценивались следующие модели:
-KNeighborsClassifier;
-GaussianNB;
-LogisticRegression;
-RandomForestClassifier;
-GradientBoostingClassifier;
-XGBClassifier;
-HistGradientBoostingClassifier;
-AdaBoostClassifier;
-Ансамбль AdaBoostClassifier (base_estimator=LogisticRegression);
-LGBMClassifier;
-LogitBoost.
+- KNeighborsClassifier;
+- GaussianNB;
+- LogisticRegression;
+- RandomForestClassifier;
+- GradientBoostingClassifier;
+- XGBClassifier;
+- HistGradientBoostingClassifier;
+- AdaBoostClassifier;
+- Ансамбль AdaBoostClassifier (base_estimator=LogisticRegression);
+- LGBMClassifier;
+- LogitBoost.
 
 Оценка качества для лучших моделей.
 
@@ -88,9 +91,9 @@ LogitBoost.
 Поиск оптимальных параметров моделей.
 
 Для лучших моделей осуществлялись поиск оптимальных гиперпараметров по сетке и оценка метрики ROC-AUC после оптимизации:
-LogisticRegression - penalty, solver, class_weight;
-GradientBoostingClassifier - learning_rate, n_estimators, max_depth, min_samples_split, min_samples_leaf, max_features, subsample;
-Ансамбль AdaBoostClassifier (base_estimator=LogisticRegression) - learning_rate,n_estimators, algorithm.
+- LogisticRegression - penalty, solver, class_weight;
+- GradientBoostingClassifier - learning_rate, n_estimators, max_depth, min_samples_split, min_samples_leaf, max_features, subsample;
+- Ансамбль AdaBoostClassifier + LogisticRegression - learning_rate,n_estimators, algorithm.
 
 Отбор признаков.
 
