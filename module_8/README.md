@@ -5,9 +5,9 @@
 
 ## Оглавление  
 [1. Описание модуля](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_8/README.md#Описание-модуля)  
-[2. Какой кейс решаем?](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_8/README.md#Какой-кейс-решаем?) 
+[2. Какой кейс решаем?](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_8/README.md#Какой-кейс-решаем?)  
 [3. Этапы работы над проектом](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_8/README.md#Этапы-работы-над-проектом)  
-[4. Результат](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_8/README.md#Результат)  
+[4. Результат](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_8/README.md#Результат) 
 
 ### Описание модуля  
 Вы работаете в компании, занимающейся продажей автомобилей с пробегом.
@@ -29,7 +29,6 @@
 **Метрика качества**
 Победитель определяется по наибольшему значению accuracy
 :arrow_up:[к оглавлению](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_8/README.md#Оглавление)
-
 
 ### Этапы работы над проектом  
 1. Анализ датасета EDA.
