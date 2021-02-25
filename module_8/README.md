@@ -5,7 +5,7 @@
 
 ## Оглавление  
 [1. Описание модуля](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_8/README.md#Описание-модуля)  
-[2. Какой кейс решаем?](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_8/README.md#Какой-кейс-решаем?)  
+[2. Какой кейс решаем?](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_8/README.md#Какой-кейс-решаем?) 
 [3. Этапы работы над проектом](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_8/README.md#Этапы-работы-над-проектом)  
 [4. Результат](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_8/README.md#Результат)  
 
@@ -25,11 +25,11 @@
 ### Какой кейс решаем?
 Необходимо построить DL-модель для классификации изображений, а также обернуть модель в сервис на Flask для того, чтобы на практике отследить особенности внедрения DL-моделей в продакшн.
 В качестве данных в работе над проектом предусмотрено два файла: архивы train.zip и test.zip с фотографиями автомобилей.
-:arrow_up:[к оглавлению](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_8/README.md#Оглавление)
 
 **Метрика качества**
-Победитель определяется по наибольшему значению accuracy.
+Победитель определяется по наибольшему значению accuracy
 :arrow_up:[к оглавлению](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_8/README.md#Оглавление)
+
 
 ### Этапы работы над проектом  
 1. Анализ датасета EDA.
