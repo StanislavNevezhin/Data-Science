@@ -1,6 +1,5 @@
 # Сборник PET-проектов Невежина Станислава  
-## по специализации Data Science  
-### skillfactory_rds  
+## Data Science  
 ![https://img.shields.io/badge/Python-3.7.4-blue](https://img.shields.io/badge/Python-3.7.4-blue)
 
 ### Оглавление  
@@ -13,7 +12,7 @@
 ### О чем тут и про что  
 Эти пет-проекты были созданы в рамках программы обучения по специализации Data Science в SkillFactory.  
 На текущий момент проекты с использованием:
-- **Стэк**: Python (NumPy, Pandas, Matplotlib, Seaborn, Plotly, Scipy, SciKit-Learn, Pandas Profiling, MLextend)  
+- **Стэк**: Python (NumPy, Pandas, Matplotlib, Seaborn, Plotly, Scipy, SciKit-Learn)  
 - **IDE**: VS Code, PyCharm, Anaconda, Jupyter Notebook  
 - **Cоревнования по программированию и/или обработке данных**: Kaggle ([перейти к профилю stanislavnevezhin](https://www.kaggle.com/stanislavnevezhin))  
 - **Системы контроля версий**: Git, GitHub (web, desktop) ([перейти к всем репозиториям профиля StanislavNevezhin](https://github.com/StanislavNevezhin))  
